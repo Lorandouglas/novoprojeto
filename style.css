@@ -1,0 +1,58 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    padding: 40px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    max-width: 400px;
+    border: solid 3px rgb(48, 170, 11);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 2px 3px 15px;
+    transition: 2s;
+    border-radius: 5px;
+}
+
+.texto{
+    color: white;
+    position: relative;
+    top: 210px;
+  
+
+}
+
+h1{
+    padding-bottom: 10px;
+}
+
+.container:hover .texto{
+    transition: 2s;
+    top: 0;
+ 
+}
+
+.container:hover{
+    backdrop-filter: blur(0px);
+}
+
+
